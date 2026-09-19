@@ -1,0 +1,489 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AiHireGenz | AI Career Co-pilot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+
+    <div class="brand">
+      <div class="logo">A</div>
+      <div>
+        <h2>AiHireGenz</h2>
+        <small>Your AI Career Co-pilot</small>
+      </div>
+    </div>
+
+    <nav>
+      <button class="nav active">⌂ <span>Dashboard</span></button>
+      <button class="nav">⌕ <span>Find Jobs</span></button>
+      <button class="nav">▤ <span>Resume Builder</span></button>
+      <button class="nav">◈ <span>ATS Score</span></button>
+      <button class="nav">✦ <span>AutoHire</span></button>
+      <button class="nav">▣ <span>Applications</span></button>
+      <button class="nav">⌁ <span>Analytics</span></button>
+      <button class="nav">♡ <span>Saved Jobs</span></button>
+    </nav>
+
+    <div class="bottom-nav">
+      <button class="nav">⚙ <span>Settings</span></button>
+      <button class="nav">? <span>Help & Support</span></button>
+    </div>
+
+    <div class="profile">
+      <div class="avatar">ST</div>
+      <div>
+        <strong>Sachin Teenwal</strong>
+        <small>Student | DevOps</small>
+        <small class="online">● Online</small>
+      </div>
+    </div>
+
+  </aside>
+
+
+  <!-- MAIN -->
+  <main class="main">
+
+    <!-- TOP BAR -->
+    <header class="topbar">
+
+      <div class="search">
+        🔍
+        <input
+          type="text"
+          id="search"
+          placeholder="Search jobs, companies or skills..."
+        >
+      </div>
+
+      <div class="user-area">
+        <span class="notification">🔔</span>
+
+        <div class="welcome">
+          <small>Good Morning,</small>
+          <strong>Sachin 👋</strong>
+        </div>
+
+        <div class="user-avatar">ST</div>
+      </div>
+
+    </header>
+
+
+    <section class="content">
+
+      <!-- HERO -->
+      <section class="hero">
+
+        <div>
+          <small>AI CAREER CO-PILOT</small>
+
+          <h1>
+            Build Your Dream Career with AI
+          </h1>
+
+          <p>
+            Discover opportunities. Optimize your resume.
+            Get hired faster.
+          </p>
+        </div>
+
+        <div class="hero-text">
+          "Better Skills<br>
+          Brighter Opportunities"
+        </div>
+
+      </section>
+
+
+      <!-- PAGE HEADER -->
+      <div class="page-header">
+
+        <div>
+          <h2>Dashboard Overview</h2>
+          <p>Your career activity at a glance.</p>
+        </div>
+
+        <button id="scanBtn" class="primary-btn">
+          ✦ Run AI Job Scan
+        </button>
+
+      </div>
+
+
+      <!-- STAT CARDS -->
+      <section class="stats">
+
+        <div class="stat-card">
+          <div class="stat-icon blue">▣</div>
+          <div>
+            <span>Jobs Matched</span>
+            <h2>124</h2>
+            <small class="success">↑ 12% from last week</small>
+          </div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon green">▤</div>
+          <div>
+            <span>Applications</span>
+            <h2>32</h2>
+            <small class="success">↑ 28% from last week</small>
+          </div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon red">◈</div>
+          <div>
+            <span>Avg. ATS Score</span>
+            <h2>82%</h2>
+            <small class="success">↑ 15% from last week</small>
+          </div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon purple">✦</div>
+          <div>
+            <span>AutoHire</span>
+            <h2>6</h2>
+            <small class="success">↑ 200% from last week</small>
+          </div>
+        </div>
+
+      </section>
+
+
+      <!-- ANALYTICS -->
+      <section class="analytics">
+
+        <!-- APPLICATION PIPELINE -->
+        <div class="card">
+
+          <div class="card-header">
+            <h3>Application Pipeline</h3>
+            <span>Last 30 days</span>
+          </div>
+
+          <div class="chart">
+
+            <div class="bar">
+              <strong>32</strong>
+              <div style="height:130px"></div>
+              <small>Applied</small>
+            </div>
+
+            <div class="bar">
+              <strong>18</strong>
+              <div style="height:90px"></div>
+              <small>Screening</small>
+            </div>
+
+            <div class="bar">
+              <strong>8</strong>
+              <div style="height:55px"></div>
+              <small>Interview</small>
+            </div>
+
+            <div class="bar">
+              <strong>3</strong>
+              <div style="height:35px"></div>
+              <small>Offer</small>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- SKILLS -->
+        <div class="card">
+
+          <div class="card-header">
+            <h3>Skills Match</h3>
+            <span>Profile analysis</span>
+          </div>
+
+          <div class="donut-container">
+
+            <div class="donut">
+              <div>
+                <strong>82%</strong>
+                <small>Match</small>
+              </div>
+            </div>
+
+            <ul>
+              <li>🔵 DevOps <b>90%</b></li>
+              <li>🟣 Cloud <b>80%</b></li>
+              <li>🟢 Kubernetes <b>75%</b></li>
+              <li>🟠 CI/CD <b>85%</b></li>
+              <li>🔷 Linux <b>78%</b></li>
+            </ul>
+
+          </div>
+
+        </div>
+
+
+        <!-- JOB SOURCES -->
+        <div class="card">
+
+          <div class="card-header">
+            <h3>Job Sources</h3>
+            <span>124 jobs</span>
+          </div>
+
+          <div class="donut-container">
+
+            <div class="donut source">
+              <div>
+                <strong>124</strong>
+                <small>Jobs</small>
+              </div>
+            </div>
+
+            <ul>
+              <li>🔵 LinkedIn <b>40%</b></li>
+              <li>🟣 Naukri <b>25%</b></li>
+              <li>🟢 Indeed <b>15%</b></li>
+              <li>🟠 Company <b>12%</b></li>
+              <li>⚪ Others <b>8%</b></li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- BOTTOM CONTENT -->
+      <section class="bottom">
+
+        <!-- JOB RECOMMENDATIONS -->
+        <div class="card jobs">
+
+          <div class="card-header">
+            <h3>Top Job Recommendations</h3>
+            <button class="link">View All →</button>
+          </div>
+
+
+          <div class="job">
+
+            <div class="company">A</div>
+
+            <div class="job-info">
+              <h4>DevOps Engineer (Remote)</h4>
+              <p>Amazon | Remote</p>
+
+              <div class="tags">
+                <span>DevOps</span>
+                <span>AWS</span>
+                <span>Kubernetes</span>
+              </div>
+            </div>
+
+            <button class="apply">Apply</button>
+
+          </div>
+
+
+          <div class="job">
+
+            <div class="company">G</div>
+
+            <div class="job-info">
+              <h4>Site Reliability Engineer</h4>
+              <p>Google | Bengaluru</p>
+
+              <div class="tags">
+                <span>SRE</span>
+                <span>GCP</span>
+                <span>Terraform</span>
+              </div>
+            </div>
+
+            <button class="apply">Apply</button>
+
+          </div>
+
+
+          <div class="job">
+
+            <div class="company">M</div>
+
+            <div class="job-info">
+              <h4>Cloud DevOps Engineer</h4>
+              <p>Microsoft | Hyderabad</p>
+
+              <div class="tags">
+                <span>Azure</span>
+                <span>CI/CD</span>
+                <span>Docker</span>
+              </div>
+            </div>
+
+            <button class="apply">Apply</button>
+
+          </div>
+
+
+          <div class="job">
+
+            <div class="company">S</div>
+
+            <div class="job-info">
+              <h4>Platform Engineer</h4>
+              <p>Spotify | Remote</p>
+
+              <div class="tags">
+                <span>Kubernetes</span>
+                <span>Terraform</span>
+                <span>Linux</span>
+              </div>
+            </div>
+
+            <button class="apply">Apply</button>
+
+          </div>
+
+        </div>
+
+
+        <!-- ACTIVITY -->
+        <div class="card">
+
+          <div class="card-header">
+            <h3>Recent Activity</h3>
+            <button class="link">View All →</button>
+          </div>
+
+          <div class="activity">
+
+            <div>
+              <span>◈</span>
+              <p>
+                <strong>Resume analyzed</strong>
+                <small>Your ATS score improved to 82%</small>
+              </p>
+              <time>10 min ago</time>
+            </div>
+
+            <div>
+              <span>♟</span>
+              <p>
+                <strong>Applied to DevOps Engineer</strong>
+                <small>Amazon</small>
+              </p>
+              <time>2 hrs ago</time>
+            </div>
+
+            <div>
+              <span>♧</span>
+              <p>
+                <strong>New job match found</strong>
+                <small>5 new DevOps jobs for you</small>
+              </p>
+              <time>5 hrs ago</time>
+            </div>
+
+            <div>
+              <span>↧</span>
+              <p>
+                <strong>Resume downloaded</strong>
+                <small>JD-tailored resume</small>
+              </p>
+              <time>1 day ago</time>
+            </div>
+
+            <div>
+              <span>✦</span>
+              <p>
+                <strong>AutoHire scan completed</strong>
+                <small>2 applications submitted</small>
+              </p>
+              <time>1 day ago</time>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- AI INSIGHTS -->
+        <div class="card">
+
+          <div class="card-header">
+            <h3>AI Insights</h3>
+            <span>✦</span>
+          </div>
+
+          <div class="insight">
+            <div>↗</div>
+            <section>
+              <strong>Improve Your Resume</strong>
+              <p>
+                Add more Kubernetes and Terraform keywords
+                to increase your ATS score.
+              </p>
+            </section>
+          </div>
+
+          <div class="insight">
+            <div>★</div>
+            <section>
+              <strong>High Demand Skill</strong>
+              <p>
+                DevOps skills are currently in demand.
+                Keep learning!
+              </p>
+            </section>
+          </div>
+
+          <div class="insight">
+            <div>☵</div>
+            <section>
+              <strong>Interview Prep</strong>
+              <p>
+                Practice common DevOps interview questions
+                to boost your confidence.
+              </p>
+            </section>
+          </div>
+
+          <div class="ai-message">
+            "You're closer than you think.<br>
+            <strong>Keep going!</strong>"
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <footer>
+        © 2026 AiHireGenz · AI-powered career platform demo
+      </footer>
+
+    </section>
+
+  </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+```
